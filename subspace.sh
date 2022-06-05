@@ -5,7 +5,6 @@ echo "Preparations server"
 echo "============================================================"
 sudo -i
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install wget -y
 
 cd $HOME
 # следующие две команды могут выдать ошибку и это нормально
